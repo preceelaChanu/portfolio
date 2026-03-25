@@ -1,7 +1,17 @@
-import Image from "next/image";
+import Hello from '@/components/Hello'
+import React from 'react'
 
-export default function Home() {
+const Page = () => {
+
+  console.log("Page");
   return (
-    <div></div>
-  );
+    <main>
+      <div className='text-5xl underline'>
+        <Hello />
+      </div>
+    </main>
+  )
 }
+
+export default Page
+
